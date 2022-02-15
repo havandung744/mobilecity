@@ -1,0 +1,333 @@
+
+
+/* thiết lập css cho thẻ menu */
+
+.menu
+{
+	width: 100%;
+	height: 62px;
+	margin-bottom: -25px;
+}
+
+.menu span
+{
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+.menu p
+{
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+.menu p span
+{
+	color: #F1AA0C;
+}
+
+.menu p select
+{
+	color: white;
+	border: none;
+	background-color:#F1AA0C; 
+
+}
+
+#text a
+{
+	margin-left: -20px;
+	color: black;
+	font-weight: bolder;
+	text-decoration: none;
+
+}
+
+
+/* thiết lập css cho thẻ menu1 */
+
+.menu1
+{
+	width: auto;
+	height: 100px;
+	background-color: #c69a39;
+	margin-left: -10px;
+	display: flex;	
+
+}
+
+.search
+{
+	height: 35px;
+	width: 350px;
+	background-color: white;
+	margin: 25px auto;
+	border-radius: 25px;	
+}
+
+.search input
+{
+	height: 30px;
+	width: 300px;
+	border: none;
+	border-radius: 25px;
+}
+
+.search button
+{
+	height: 30px;
+	width: 30px;
+	background-color: white;
+	border: none;
+}
+
+.search button img
+{
+	height: 20px;
+	width: 20px;
+}
+
+.menu1 a img
+{
+	margin-top: 5px; 
+	width: auto;
+	height: 70px;
+	opacity: 1;
+
+}
+
+.sum
+{
+	margin-right:  100px;
+}
+
+/* viết css cho class menu2 */
+
+.menu2
+{
+	margin-top: 12px;
+	width: 100%;
+	height: 300px;
+	display: flex;
+}
+
+.picture img 
+{
+	width: 80px
+	height: 250px;
+	margin-left: 50px;
+}
+
+video
+{
+	margin-top: -24px;
+	margin-left: 10px;
+	border: none;
+}
+
+
+/* viết css cho class menu3 */
+
+.menu3 ul
+{
+	list-style-type: none;
+	display: flex;
+}
+
+.menu3 ul li a
+{
+	margin-left: 25px;
+	text-decoration: none;
+}
+
+.menu3 ul li a
+{
+	color: #c69a39;
+}
+
+.menu3 #hang a
+{
+	font-weight: bolder;
+	color: black;
+}
+
+#select select
+{
+	margin-left: 80px;
+	border: none;	
+}
+
+/* viết css cho class content */
+
+.content
+{
+	width: 80%;
+	height: auto;
+	margin: 20px auto;
+	display: grid;
+	grid-template-rows: 450px 450px 450px 450px 450px;
+	grid-template-columns: 210px 210px 210px 210px 210px;
+}
+
+.item
+{
+	width: 209px;
+	height: 450px;
+	border: 1px solid #EEEEEE;
+}
+
+.item img
+{
+	margin-left: 25px;
+	margin-top: 5px;
+	width: 150px;
+	height: 180px;
+}
+
+.item p
+{
+	margin-left: 10px;
+
+}
+
+
+.item1
+{
+	width: 209px;
+	height: 450px;
+	border: 1px solid #EEEEEE;
+
+}
+
+.item1 img
+{
+	margin-left: 25px;
+	margin-top: 5px;
+	width: 150px;
+	height: 180px;
+	
+}
+
+.item1 p
+{
+	margin-left: 10px;
+
+}
+
+#toggle
+{
+	border: 1px solid #c69a39;
+	width: 250px;
+	height: 40px;
+	background-color: white;
+	color:#c69a39;
+	margin-left: 400px;
+	margin-top: 10px;
+	border-radius: 20px;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+img + p
+{
+	font-weight:bold;
+}
+
+button
+{
+	background-color:#FFFF66;
+	border: none;
+	cursor: pointer;
+}
+
+.color
+{
+	color: red;
+	font-weight: bold;
+}
+
+
+/* tao cac hieu ung cho trang web ! */
+#toggle:hover
+{
+	background-color: #c69a39;
+	color: white;
+	cursor: pointer;
+}
+
+#toggle1
+{
+	border: 1px solid #c69a39;
+	width: 250px;
+	height: 40px;
+	background-color: white;
+	color:#c69a39;
+	margin-left: 200px;
+	margin-top: 10px;
+	border-radius: 20px;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+/* tao hieu ung cho thanh scroll bar */
+	
+/* tao cac hieu ung cho trang web ! */
+#toggle1:hover
+{
+	background-color: #c69a39;
+	color: white;
+	cursor: pointer;
+}
+
+#topandup {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #c69a39;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius:4px;
+	
+}
+
+
+
+.text-up
+{
+	width: 100%;
+	height: auto;
+	background-color: #fafafa;
+	display:flex;
+}
+
+.text-up2
+{
+	width: 80%;
+	height: 100px;
+	background-color: #fafafa;
+	display:flex;
+	margin: auto;
+}
+
+.text-up ul
+{
+	margin-left: 50px;
+
+}
+
+
+.text-up ul li
+{
+	list-style-type: none;
+}
+
+.text-up ul li a
+{
+	text-decoration: none;
+	color: blue;
+}
